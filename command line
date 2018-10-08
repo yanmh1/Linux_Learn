@@ -35,3 +35,18 @@ touch first.cpp  //创建一个.cpp文件
 gedit first.cpp  //用gedit编辑代码，也可以用vim等编辑软件
 g++ first.cpp -o test   //编译生成test文件
 ./test           //运行编译文件
+
+
+//安装aria2
+sudo add-apt-repository ppa:t-tujikawa/ppa
+sudo apt-get update
+sudo apt-get install aria2
+
+//文件下载
+wget -c --referer=百度云分享链接 -O 保存的文件名 "百度云实际下载地址"
+aria2c --dir=保存的目录 --max-connection-per-server=16 --max-concurrent-downloads=16 --split=16 --continue=true "下载链接地址"
+
+
+
+
+
