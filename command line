@@ -1,0 +1,37 @@
+ctrl c   //转到新行命令：
+
+sudo -i   //进入root用户：
+
+cd filename  //进入文件夹路径：
+
+mkdir filename  //创建文件夹：
+
+ls -al /mnt/d   //使用windows文件：
+
+
+//查看日历
+cal        //查看当前日历
+cal 2010  //查看2010年的日历
+cal 10 2010  //查看2010年10月的日历
+
+echo $LANG  //查看当前语言
+LANG=en_US  //修改成英语
+
+//退出vi编辑
+//先按esc，再按shift+zz,或者ZZ
+
+
+//关机命令
+halt             //现在立刻关机
+shutdown -h now //现在立刻关机
+shutdown  -h 22:00 //晚上10点自动关机
+shutdown  -h +10 //10分钟后自动关机
+reboot          //现在立刻重启
+shutdown -r now //现在立刻重启
+
+
+//编译C++代码 
+touch first.cpp  //创建一个.cpp文件
+gedit first.cpp  //用gedit编辑代码，也可以用vim等编辑软件
+g++ first.cpp -o test   //编译生成test文件
+./test           //运行编译文件
