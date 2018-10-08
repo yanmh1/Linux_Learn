@@ -37,15 +37,16 @@ g++ first.cpp -o test   //编译生成test文件
 ./test           //运行编译文件
 
 
+#linux系统下载百度网盘资源
 //安装aria2
 sudo add-apt-repository ppa:t-tujikawa/ppa
 sudo apt-get update
 sudo apt-get install aria2
 
-//文件下载
+//文件下载的两种方法，第二种比较好
 wget -c --referer=百度云分享链接 -O 保存的文件名 "百度云实际下载地址"
 aria2c --dir=保存的目录 --max-connection-per-server=16 --max-concurrent-downloads=16 --split=16 --continue=true "下载链接地址"
-
+//通过firefox插件直接查看下载链接，复制链接后，直接在终端张贴即可
 
 
 
