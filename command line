@@ -2,7 +2,18 @@ ctrl c   //转到新行命令：
 
 sudo -i   //进入root用户：
 
-cd filename  //进入文件夹路径：
+#cd用法
+#绝对路径
+cd /home/user(your user name)/...
+cd name(where you want to go)
+cd ..  #回到上一次路径
+cd ~   #go home
+#相对路径，假设现在所在路径  /home/user/Downloads/a
+cd ../b  #进入Downloads目录中的b 
+pwd  #显示当前目录
+mkdir #建立一个新的目录
+rmdir #删除一个空的目录
+ls -al #查看当前目录
 
 mkdir filename  //创建文件夹：
 
