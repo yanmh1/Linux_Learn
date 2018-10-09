@@ -49,5 +49,11 @@ aria2c --dir=保存的目录 --max-connection-per-server=16 --max-concurrent-dow
 //通过firefox插件直接查看下载链接，复制链接后，直接在终端张贴即可
 
 
+#删除文件
+rm filename
 
+#复制文件file是文件名，dir是把file复制到的路径
+cp file dir
+#把file1的内容加到file2内容的末尾
+cat file1 << file2
 
