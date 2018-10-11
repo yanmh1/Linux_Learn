@@ -1,0 +1,5 @@
+1.Linxu系统访问windows系统共享文件
+1>在windows系统上创建贡共享文件夹
+2>sudo apt-get install smbclient   #在linux系统上安装samba
+3>sudo apt-get install cifs-utils  #在linux系统上暗转cifs
+4>mkdir /.../my_share              #在linux系统上创建一个文件夹用于挂载windows文件夹
