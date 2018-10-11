@@ -68,3 +68,9 @@ cp file dir
 #把file1的内容加到file2内容的末尾
 cat file1 << file2
 
+
+
+#进图图形界面 
+crtl+alt+fn+f3/f4  
+#返回图形界面
+crtl+alt+fn+f1
