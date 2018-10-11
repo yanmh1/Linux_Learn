@@ -1,5 +1,8 @@
-1.Linxu系统访问windows系统共享文件
+1.Linxu系统访问windows系统共享文件(这里命名一个wind)
 1>在windows系统上创建贡共享文件夹
 2>sudo apt-get install smbclient   #在linux系统上安装samba
 3>sudo apt-get install cifs-utils  #在linux系统上暗转cifs
 4>mkdir /.../my_share              #在linux系统上创建一个文件夹用于挂载windows文件夹
+5>sudo mount -t cifs -o username=Administraror //192.168.0.103/wind /.../my_share
+6>接下来是要求输入用户密码;
+7>成功
