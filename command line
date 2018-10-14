@@ -77,3 +77,10 @@ crtl+alt+fn+f1
 
 #查看ip地址
 ifconfig -a
+
+
+
+#压缩与解压
+.zip
+unzip filename.zip  #解压
+zip filename.zip    #压缩
