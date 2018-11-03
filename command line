@@ -84,3 +84,8 @@ ifconfig -a
 .zip
 unzip filename.zip  #解压
 zip filename.zip    #压缩
+
+
+vim编辑器
+#显示行号
+set nu
