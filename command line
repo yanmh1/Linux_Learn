@@ -89,3 +89,7 @@ zip filename.zip    #压缩
 vim编辑器
 #显示行号
 set nu
+
+#光标移动到n行
+nG
+
