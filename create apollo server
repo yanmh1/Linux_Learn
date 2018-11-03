@@ -1,0 +1,6 @@
+cd apache-apollo-1.7.1/bin/
+./apollo create mybroker
+cd mybroker/bin
+./apollo-broker run
+
+
