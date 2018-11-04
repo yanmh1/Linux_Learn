@@ -107,7 +107,7 @@ kill -9 进程pid
 //把当前任务挂起
 ctrl+z
 切换到挂起的任务
-jobs
+fg
 
 
 
